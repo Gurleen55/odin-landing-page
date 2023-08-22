@@ -67,3 +67,79 @@ button.button {
     border: none;
     border-radius: 4px;
 }
+
+.players-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.header {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    gap: 30px;
+    text-align: center;
+    
+
+    
+}
+
+.img-players {
+    width: 150px;
+    height: auto;
+}
+
+.quote-container{
+    padding: 80px 140px;
+    background-color:#E5E7EB
+}
+
+.quote {
+   font-size: 36px;
+   font-style: italic;
+   font-weight:lighter;
+   color: #1F2937;
+}
+
+.author {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.footer-container {
+    display: flex;
+    background-color: rgb(58, 58, 230);
+    margin: 60px;
+    padding: 40px 60px;
+    justify-content: space-between;
+}
+
+.footer-content,
+.footer-subcontent {
+    color: #F9FAF8;
+
+}
+
+.footer-content {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.footer-button {
+    color: #F9FAF8;
+    background-color: rgb(58, 58, 230);
+    border: solid thin #F9FAF8;
+    border-radius: 5px;
+    width: 100px;
+}
